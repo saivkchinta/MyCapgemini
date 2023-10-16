@@ -1,0 +1,13 @@
+package com.cg;
+
+public class Mobilescomperision {
+	public static void main(String[] args) {
+		int samsungA2 = 17000;
+		int vivoY62 = 26000;
+		System.out.println("Two mobiles price: "+Math.addExact(samsungA2, vivoY62));
+		System.out.println("Two mobiles difference: "+Math.subtractExact(vivoY62,samsungA2));
+		System.out.println("samsung three mobiles cost: "+samsungA2*3);
+		
+	}
+
+}

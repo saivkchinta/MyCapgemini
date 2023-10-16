@@ -1,0 +1,28 @@
+package com.cg;
+import java.util.*;
+public class Bankdetails {
+	public static void main(String[] args) {
+	System.out.println("1.Deposit\n2.Withdraw\n3.Balance");
+	Scanner menu = new Scanner(System.in);
+	int choice = menu.nextInt();
+	int balance = menu.nextInt();
+	do{
+		switch(choice) {
+	//}
+		case 1: int deposit = 200;
+				System.out.println("Amount Deposited"+deposit);
+				balance = balance + deposit;
+				System.out.println(balance);
+				break;
+		case 2: int Withdraw = 300;
+				System.out.println("Amount Deposited"+Withdraw);
+				balance = balance - Withdraw;
+				System.out.println(balance);
+			//System.out.println("Amount");
+				break;
+		case 3: System.out.println(balance);
+				break;
+		default: System.out.println("Invalid input");
+	}}while(choice > 0);
+}
+}

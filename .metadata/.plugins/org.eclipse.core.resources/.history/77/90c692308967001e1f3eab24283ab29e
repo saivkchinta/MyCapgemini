@@ -1,0 +1,15 @@
+package com.cg;
+import java.util.*;
+public class Expermentingonthings {
+
+	public static void main(String[] args) {
+	Scanner persondetails =new Scanner(System.in) ;
+	System.out.println("Enter the name of person");
+	String nameofperson =  persondetails.nextLine();
+	System.out.println("Enter your height in Centimeters");
+	float valueoffloat = persondetails.nextFloat();
+	System.out.println("Name of the person: "+nameofperson);
+	System.out.println("Height of the Person: "+valueoffloat);
+	}
+
+}

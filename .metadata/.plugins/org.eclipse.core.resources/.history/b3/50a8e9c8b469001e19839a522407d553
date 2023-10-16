@@ -1,0 +1,24 @@
+package com.cg;
+
+public class SumOfDigitsWithTwo {
+
+	public static void main(String[] args) {
+		String str ="30,32,50,26,70";
+		String[] numbers = str.split(",");
+		int sum =0;
+		for (String numberStr:numbers) {
+			int number = Integer.parseInt(numberStr);
+			
+			while (number>0) {
+				int digit = number%10;
+				if(digit==2) {
+					sum+=digit;
+					
+				}
+				number/=10;
+			}
+		}
+		System.out.println("The sum of all the digits where 2 exist is: "+sum);
+	}
+
+}

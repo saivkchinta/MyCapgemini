@@ -1,0 +1,9 @@
+package com.cg;
+import java.lang.*;
+public class Bankdetails {
+	int accountbalance = 500;
+	int deposit = 200;
+	int onlinepayment = 300;
+	System.out.println(math.addEx)
+	
+}

@@ -1,0 +1,15 @@
+package com.cg;
+
+public interface Carche extends Carclass implements Welc {
+
+	//@Override
+	public void display() {
+		System.out.println("welcome to abstract class");
+		
+	}
+	public void check() {
+		System.out.println("Check");
+	}
+	
+
+}

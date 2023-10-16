@@ -1,0 +1,16 @@
+package com.cg;
+
+public class SumOfDigitsWithTwo {
+
+	public static void main(String[] args) {
+		String str ="30,32,50,26,70";
+		String[] numbers = str.split(",");
+		int sum =0;
+		for(String s:numbers) {
+			int n = Integer.parseInt(s);
+			sum = sum + n;
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.cg;
+
+public class Expermentingonthings {
+
+	public static void main(String[] args) {
+	System.out.print("Welcome"+"Bro");
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.cg;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+	int a=10;
+	char b='d';
+	double d= 3.42;
+	boolean flag= false;
+	
+	System.out.println("hello welcome to java world");
+	
+	System.out.println("integer value"+a);
+	System.out.println("character value"+b);
+	System.out.println("double value"+d);
+	System.out.println("boolean value"+flag);
+
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.cg;
+
+public class Switchcase {
+
+	public static void main(String[] args) {
+		int option = Integer.parseInt(args[0]);
+		System.out.println("1.Sunday\n 2.Mon \n 3.Tue");
+		switch(option){
+		case 1:
+			System.out.println("Sunday");
+			break;
+		case 2:
+			System.out.println("Mon");
+			break;
+		case 3:
+			System.out.println("Tue");
+			break;
+		default:
+			System.out.println("invalid choice");
+		}
+	}
+
+}

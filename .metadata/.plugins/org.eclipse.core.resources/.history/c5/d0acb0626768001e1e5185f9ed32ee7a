@@ -1,0 +1,24 @@
+package com.cg;
+
+public class Car {
+	int cno=100;
+	int noofseats=200;;
+	String carcompany;
+	public Car(String name, String type) {
+		
+	}
+public void Car() {
+	System.out.println("RR");
+ }
+
+public static void main(String[] args) {
+   Car carobj = new Car("thar", "SUV");
+   System.out.println(carobj);
+    carobj.Car();
+
+}
+}
+
+	
+
+

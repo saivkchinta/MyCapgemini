@@ -1,0 +1,22 @@
+package com.cg;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		int a=arg[0];
+		int b=arg[1];
+		String str1=arg[2];
+		String str2 = arg[3];
+		String str3 =arg[4];
+		int c =40;
+		int d =50;
+		int e=c+d;
+		
+		
+		System.out.println("the sum of"+a"and"+b"is"+e)
+		
+
+	}
+
+}

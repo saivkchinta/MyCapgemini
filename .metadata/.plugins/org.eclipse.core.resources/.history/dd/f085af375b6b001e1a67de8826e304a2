@@ -1,0 +1,12 @@
+package com.cg;
+
+public class Carche extends Carclass {
+
+	@Override
+	public void display() {
+		System.out.println("welcome to abstract class");
+		
+	}
+	
+
+}

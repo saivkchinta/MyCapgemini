@@ -1,0 +1,9 @@
+package com.cg;
+
+public class TypeConversion {
+	public static void main(String[ ]args) {
+		int intvalue = 5;
+		double doublevalue =intvalue;
+	}
+
+}

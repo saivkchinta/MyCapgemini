@@ -1,0 +1,14 @@
+package com.cg;
+import java.util.*;
+public class Expermentingonthings {
+
+	public static void main(String[] args) {
+	String firstName = args[0];
+	String middleName = args[1];
+	String lastName = args[2];
+	System.out.println(firstName+""+middleName+""+lastName);
+	System.out.println(middleName);
+	System.out.println(lastName);
+	}
+
+}

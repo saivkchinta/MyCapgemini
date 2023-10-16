@@ -1,0 +1,18 @@
+package com.cg;
+import java.util.Arrays;
+
+public class SortNames {
+
+	public static void main(String[] args) {
+		String[]names = {"rahul" ,"sachin" ,"vinod","anil"};
+	
+		String []s=Arrays.sort(names);
+		
+		System.out.println(s);
+		}
+		
+}
+
+	
+
+

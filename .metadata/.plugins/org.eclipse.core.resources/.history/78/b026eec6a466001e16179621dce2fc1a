@@ -1,0 +1,12 @@
+package com.cg;
+import java.lang.*;
+public class BiryanizoneExpenses {
+	public static void main(String[] args) {
+		int Familypackbiryani = 799.00;
+		int regularbiryani = 339;
+		System.out.println(Math.addExact(Familypackbiryani*2.5, regularbiryani*2)/7);
+	
+
+	}
+
+}

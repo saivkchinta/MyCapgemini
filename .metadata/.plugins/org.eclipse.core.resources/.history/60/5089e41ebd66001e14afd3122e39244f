@@ -1,0 +1,21 @@
+package com.cg;
+import java.util.*;
+public class Bankdetails {
+	public static void main(String[] args) {
+	System.out.println("1.Deposit\n2.Withdraw\n3.Balance");
+	Scanner menu = new Scanner(System.in);
+	int choice = menu.nextInt();
+	switch(choice) {
+		case 1: System.out.println(deposit());
+				break;
+		case 2: System.out.println("withdraw");
+			break;
+		case 3: System.out.println("Balance");
+			break;
+		default: System.out.println("Invalid input");
+	}
+	public int deposit() {
+		return 0;
+	}
+}
+}

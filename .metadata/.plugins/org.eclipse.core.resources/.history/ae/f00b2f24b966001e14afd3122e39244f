@@ -1,0 +1,17 @@
+package com.cg;
+import java.lang.*;
+public class BiryanizoneExpenses {
+	public static void main(String[] args) {
+		int Familypackbiryani = 799;
+		int regularbiryani = 339;
+		int[] n = n{10,"Bharath",2};
+		for(int i=0;i<n;i++) {
+		System.out.println(n[i]);
+		}
+		System.out.println(Math.addExact(Familypackbiryani*2, regularbiryani*2)/7);
+		System.out.println(Math.floorDiv(Familypackbiryani, regularbiryani));
+	
+
+	}
+
+}
